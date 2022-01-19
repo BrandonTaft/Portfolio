@@ -678,7 +678,10 @@ section:hover .section-head h4 {
 /* ----------------------------------------------------------------
      [ 07 Start Portfolio ]
 -----------------------------------------------------------------*/
+.items{
+margin: 5%;
 
+}
 #disappear{
   display: none;
 }
@@ -1449,6 +1452,11 @@ footer p {
 }
 @media screen and (max-width: 767px) {
 
+  .blog .item .content .more p{
+    display: none;
+  }
+
+
   .header {
     /* min-height: 55vh; */
    
@@ -1528,6 +1536,11 @@ footer p {
   }
 }
 @media screen and (max-width: 480px) {
+
+  .blog .item .content .more p{
+    display: none;
+  }
+
 
   .hero .content h4{
     font-size: 20px;
