@@ -421,6 +421,10 @@ section:hover .section-head h4 {
      [ 04 Start Header ]
 -----------------------------------------------------------------*/
 
+.head-wrapper{
+  display: inline;
+}
+
 #welcome{
   margin-top: 10%;
   color: #c49b66;
@@ -472,6 +476,11 @@ section:hover .section-head h4 {
 /* ----------------------------------------------------------------
      [ 05 Start Hero ]
 -----------------------------------------------------------------*/
+
+#profile-pic{
+  margin-top: 10%;
+}
+
 .about .skills {
   padding: 100px 0;
 }
@@ -745,6 +754,9 @@ margin-bottom: 13%;
 .portfolio .items h3{
   color: #c49b66;
   margin-bottom: 3%;
+  border-bottom: 4px solid #c49b66;
+  letter-spacing: 2.5px;
+  font-size: 45px;
 }
 .portfolio .item-img {
   position: relative;
@@ -1355,6 +1367,18 @@ footer p {
 
 @media screen and (max-width: 991px) {
 
+  .portfolio .items h3{
+    font-size: 40px;
+    border-bottom: 3px solid #c49b66;
+    margin-bottom: 30px;
+  }
+
+  #profile-pic{
+    width: 70%;
+    margin-right: 15%;
+    margin-left: 15%;
+  }
+
   .skills-item{
     max-width: 33%;
   }
@@ -1468,6 +1492,12 @@ footer p {
 
 @media screen and (max-width: 767px) {
 
+  .portfolio .items h3{
+    font-size: 30px;
+    border-bottom: 3px solid #c49b66;
+    margin-bottom: 20px;
+  }
+
   .skills-item{
     max-width: 33%;
   }
@@ -1544,6 +1574,12 @@ footer p {
 /* ***************@media screen and (max-width: 480px)************ */
 
 @media screen and (max-width: 480px) {
+
+  .portfolio .items h3{
+    font-size: 18px;
+    border-bottom: 2px solid #c49b66;
+    margin-bottom: 15px;
+  }
 
   #skills-title{
     width: 100%;
