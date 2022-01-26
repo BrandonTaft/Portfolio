@@ -480,6 +480,9 @@ section:hover .section-head h4 {
 
 #profile-pic{
   margin-top: 10%;
+  border-color: #c49b66;
+  border-style: outset;
+  border-width: 5px;
 }
 
 .about .skills {
@@ -569,6 +572,7 @@ section:hover .section-head h4 {
 .hero {
   z-index: 3;
 }
+
 .hero .wave {
   -webkit-transform: rotate(180deg) translateY(100%);
           transform: rotate(180deg) translateY(100%);
@@ -1371,6 +1375,10 @@ footer p {
 
 @media screen and (max-width: 991px) {
 
+  .hero {
+    padding: 50px 0;
+  }
+
   .portfolio .items h3{
     font-size: 35px;
     border-bottom: 2px solid #c49b66;
@@ -1378,9 +1386,9 @@ footer p {
   }
 
   #profile-pic{
-    width: 70%;
-    margin-right: 15%;
-    margin-left: 15%;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
   }
 
   .skills-item{
@@ -1578,6 +1586,11 @@ footer p {
 /* ***************@media screen and (max-width: 480px)************ */
 
 @media screen and (max-width: 480px) {
+
+  #profile-pic{
+    border-width: 3px;
+  }
+
 
   .portfolio .items h3{
     font-size: 17px;
