@@ -80,7 +80,7 @@ span, a, a:hover {
 }
 
 .section-head {
-  margin-bottom: 80px;
+  margin-bottom: 50px;
   position: relative;
 }
 .section-head h4 {
@@ -107,11 +107,11 @@ section:hover .section-head h4 {
   fill: #161617;
 }
 .wave.dark {
-  fill: #0F0F0F;
+  fill: #000;
 }
 
 .bg-dark {
-  background: #0F0F0F !important;
+  background: #000 !important;
 }
 
 .o-hidden {
@@ -692,6 +692,13 @@ section:hover .section-head h4 {
 /* ----------------------------------------------------------------
      [ 07 Start Portfolio ]
 -----------------------------------------------------------------*/
+.preview{
+  border: silver;
+  border-radius: 25px;
+  border-style: groove;
+  border-width: 3px;
+}
+
 #project-title{
   margin-top: 50px;
   margin-bottom: 20px;
@@ -759,7 +766,7 @@ margin-bottom: 13%;
 .portfolio .items h3{
   color: #c49b66;
   margin-bottom: 3%;
-  border-bottom: 2px solid #c49b66;
+  /* border-bottom: 2px solid #c49b66; */
   letter-spacing: 2.5px;
   font-size: 35px;
 }
@@ -823,7 +830,9 @@ margin-bottom: 13%;
      [ 08 Start Blog ]
 -----------------------------------------------------------------*/
 
-
+.hobby-pic{
+  border-radius: 10px;
+}
 
 .blog .item {
   -webkit-box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.1);
@@ -1381,7 +1390,6 @@ footer p {
 
   .portfolio .items h3{
     font-size: 35px;
-    border-bottom: 2px solid #c49b66;
     margin-bottom: 30px;
   }
 
@@ -1506,7 +1514,6 @@ footer p {
 
   .portfolio .items h3{
     font-size: 24px;
-    border-bottom: 2px solid #c49b66;
     margin-bottom: 20px;
   }
 
@@ -1587,6 +1594,13 @@ footer p {
 
 @media screen and (max-width: 480px) {
 
+  .preview{
+    border: silver;
+    border-radius: 10px;
+    border-style: groove;
+    border-width: 1px;
+  }
+
   #profile-pic{
     border-width: 3px;
   }
@@ -1594,7 +1608,6 @@ footer p {
 
   .portfolio .items h3{
     font-size: 17px;
-    border-bottom: 2px solid #c49b66;
     margin-bottom: 15px;
   }
 
