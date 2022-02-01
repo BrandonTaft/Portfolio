@@ -805,6 +805,7 @@ margin-bottom: 13%;
   right: 5px;
   bottom: 5px;
   background: rgba(0, 0, 0, 0.9);
+  border-radius: 25px;
   color: #fff;
   opacity: 0;
   -webkit-transition: all .5s;
