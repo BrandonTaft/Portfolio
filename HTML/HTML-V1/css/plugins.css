@@ -1,0 +1,32 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Zain
+	Theme URI: http://
+	Description: The Multi-Purpose Onepage Template
+	Author: ui-themez
+	Author URI: http://themeforest.net/user/ui-themez
+	Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+			[ All Css Plugins & Helper Classes File ]
+-----------------------------------------------------------------*/
+
+/* == bootstrap == */
+@import url("plugins/bootstrap.min.css");
+
+/* == animate Headline == */
+@import url("plugins/animate.min.css");
+
+/* == icofont icon font == */
+@import url("plugins/icofont.css");
+
+/* == fontawesome icon font == */
+@import url("plugins/fontawesome-all.min.css");
+
+/* == magnific-popup == */
+@import url("plugins/magnific-popup.css");
+
+/* == helper classes == */
+@import url("plugins/helper.css");
