@@ -19,8 +19,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-    <!-- Plugins -->
-    <link rel="stylesheet" href="css/plugins.css" />
 </head>
 
 <body id="page-top">
@@ -97,7 +95,7 @@
 
     </section>
     <!-- Services-->
-    <section class="page-section bg-dark pb-5 pt-5" id="skills">
+    <section class="page-section bg-dark" id="skills">
         <div class="container px-4 px-lg-5">
             <h2 class="text-center text-primary mt-0">My Skills</h2>
             <hr class="divider mb-5" />
@@ -202,176 +200,147 @@
         </div>
     </section>
     <!-- Portfolio-->
-    <div id="portfolio">
+    <section class="page-section bg-dark" id="portfolio">
         <h2 class="text-center text-primary mt-0">My Work</h2>
         <hr class="divider mb-5" />
         <div class="container-fluid p-0">
             <div class="row g-0">
-                <div class="col-lg-5 col-sm-6">
-                    <a class="portfolio-box lightBoxVideoLink" href="https://www.youtube.com/embed/GhLC64AKcd0"
-                        title="Project Name">
+                <div class="col-lg-5 col-sm-6 p-b">
+                    <a class="portfolio-box lightBoxVideoLink right" href="https://www.youtube.com/embed/GhLC64AKcd0"
+                        title="DataSort">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/thumbnail-ds.png" alt="..." />
-                        <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption p-b-c">
                             <div class="project-name">DataSort</div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-5 col-sm-6">
-                    <a class="portfolio-box lightBoxVideoLink" href="https://www.youtube.com/embed/uRncXQZ1m-M"
-                        title="Project Name">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/thumbnail-qw.png" alt="..." />
-                        <div class="portfolio-box-caption">
-                            <div class="project-name">QuizWiz</div>
-                            <p class="">
-                                QuizWiz is designed to be a fun mobile centric based web app that allows users
-                                        to compete for spots on our leaderboard. It is a responsive app that utilizes
-                                        Passport and JWT for
-                                        authentication, allowing users to login with their Google, Facebook or Github
-                                        Credentials. Once successfully logged in you are taken to a profile page that
-                                        also has an auto-playing carousel with the Top Three leading scores. Users can
-                                        then navigate to the home page where you choose the category of your quiz. Once
-                                        the quiz is complete and you submit your score, you can navigate to the
-                                        leaderboard to see the Top-Ten scores.
-
-                                        Quizwiz was built using React, Bootstrap,
-                                        Passport, JSON Web-token, NodeJs, Express and Sequelize.
+                            <div class="project-name">ReactJs / NextJs</div>
+                            <p class="p-2">
+                                Datasort is tutorial that uses visualizations to walk through and explain different sorting algorithms.
+                                It is interactive, allowing the user to control the speed at which the tutorial moves through the explanation.
                             </p>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-5 col-sm-6">
-                    <a class="portfolio-box lightBoxVideoLink" href="https://www.youtube.com/embed/TBWSVvPElf0"
-                        title="Project Name">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/thumbnail-notify.png" alt="..." />
+                <div class="col-lg-5 col-sm-6 p-b">
+                    <a class="portfolio-box lightBoxVideoLink left" href="https://www.youtube.com/embed/uRncXQZ1m-M"
+                        title="QuizWiz">
+                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/thumbnail-qw.png" alt="..." />
                         <div class="portfolio-box-caption">
+                            <div class="project-name">QuizWiz</div>
+                            <div class="project-name">ReactJs / NodeJs / Bootstrap</div>
+                            <p class="p-2">
+                                QuizWiz is a fun mobile centric based web app that allows users
+                                to compete for spots on a leaderboard. It is a responsive app that utilizes
+                                Passport and JWT for authentication, allowing users to login with their Google, Facebook or Github
+                                credentials.
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-5 col-sm-6 p-b">
+                    <a class="portfolio-box lightBoxVideoLink right" href="https://www.youtube.com/embed/TBWSVvPElf0"
+                        title="Notify">
+                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/thumbnail-notify.png" alt="..." />
+                        <div class="portfolio-box-caption p-b-c">
                             <div class="project-name">Notify</div>
-                            <p class="">
-                                Notify lets users create a dynamic checklist that will notify you about specific
-                                tasks at any given time.
-                                Twilio Programmable SMS allows users to add, delete, and update tasks through
-                                the sms chatbot just as easy as you can within the app.
-                                Tasks are stored with MongoDB and can be completed deleted or edited.
-                                Node-Cron is utilized to run a scheduled function that checks for
-                                notifications that are due, then integrates with Twilio
-                                to send a notification text to the user.
-                                There is also a built in messaging feature which allows the user to send and recieve text messages
-                                from within the app.
+                            <div class="project-name">VueJs / NodeJs / Twilio / MongoDB</div>
+                            <p class="p-2">
+                                Notify is dynamic checklist that features SMS notifications as well as two way SMS messaging.
+                                Twilio SMS allows users to add, delete, and update tasks through
+                                the Notify chatbot. A Node-Cron scheduled function integrates with Twilio
+                                to send notifications to the user. 
                                 <br />
                             </p>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-5 col-sm-6">
-                    <a class="portfolio-box lightBoxVideoLink" href="https://www.youtube.com/embed/XsBBXjkC_lQ"
-                        title="Project Name">
+                <div class="col-lg-5 col-sm-6 p-b">
+                    <a class="portfolio-box lightBoxVideoLink left" href="https://www.youtube.com/embed/XsBBXjkC_lQ"
+                        title="American Travel Blog">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/thumbnail-blog.png" alt="..." />
                         <div class="portfolio-box-caption">
                             <div class="project-name">American Travel Blog</div>
-                            <p class="">
+                            <div class="project-name">Mustache / NodeJs / PostgreSQL</div>
+                            <p class="p-2">
                                 American Travel Blog is an app that allows the user to share their experiences
-                                        from their
-                                        travels throughout America.
-                                        This was a Backend project designed using Mustache, Node.js, Sequelize,
-                                        Beekeeper, and PostgreSQL.
-
-
-                                        Features include login authentication, password encryption with bcrypt, a
-                                        personalized profile page,
-                                        the ability to sort blogs, ability to post comments on blogs and images are
-                                        automatically sized when uploaded.
+                                from their travels throughout America. Features include login authentication, 
+                                password encryption with bcrypt, a personalized profile page, comments section
+                                and images are automatically sized when uploaded.
                             </p>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-5 col-sm-6">
-                    <a class="portfolio-box lightBoxVideoLink" href="https://www.youtube.com/embed/P90X47xA7Hg"
-                        title="Project Name">
+                <div class="col-lg-5 col-sm-6 p-b">
+                    <a class="portfolio-box lightBoxVideoLink right" href="https://www.youtube.com/embed/P90X47xA7Hg"
+                        title="FitBook">
                         <img class="img-fluid" src="assets/img/portfolio/thumbnails/thumbnail-fit.png" alt="..." />
-                        <div class="portfolio-box-caption">
+                        <div class="portfolio-box-caption p-b-c">
                             <div class="project-name">FitBook</div>
-                            <p class="">
-                                FitBook is designed to be a community of people that can share their workouts,
-                                        including videos, links to websites and whole workout plans. &nbsp;Upon
-                                        successful login
-                                        the user is authenticated and authorized using JWT middleware and bcrypt for the
-                                        password encryption.
-
-                                        The Home page is a public feed that displays all of the posts. &nbsp;The profile
-                                        page allows
-                                        the user to view and delete their posts. &nbsp;The direct messaging function
-                                        utilizes its own
-                                        seperate database, and the messages are sent using the recipients username.
-
-                                        This app was built using React and Redux for the front-end and Nodejs, Express
-                                        and
-                                        Sequelize for the Back-end with a PostgresSQL database.
+                            <div class="project-name">React / Redux / NodeJs / PostgreSQL</div>
+                            <p class="p-2">
+                                FitBook is designed to be a community of people that can share their fitness plans.
+                                Authorization and authentication utilizes JWT middleware and bcrypt for the
+                                password encryption. Features personalized home page, in app messaging, and private posting.
                             </p>
                         </div>
                     </a>
                 </div>
-                <div class="col-lg-5 col-sm-6">
-                    <a class="portfolio-box" href="assets/img/portfolio/fullsize/6.jpg" title="Project Name">
-                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="..." />
+                <div class="col-lg-5 col-sm-6 p-b">
+                    <a class="portfolio-box freelance left" href="assets/img/portfolio/thumbnails/freelance.png" 
+                    title="Janice Health Services">
+                        <img class="img-fluid" src="assets/img/portfolio/thumbnails/thumbnail-freelance.png" alt="..." />
                         <div class="portfolio-box-caption p-3">
-                            <div class="project-name">Project Name</div>
-                            <p class="textiwhite">
-                                
+                            <div class="project-name">Freelance</div>
+                            <div class="project-name">JavaScript / Bootstrap</div>
+                            <p class="p-2">
+                                A custom health services website I recently made for a client.
                             </p>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- Hobbies-->
     <section class="page-section" id="hobbies">
         <h2 class="text-center text-primary mt-0">Hobbies</h2>
         <hr class="divider mb-5" />
         <div class="container-fluid p-0">
             <div class="row g-0">
-                <div class="col-lg-5 col-sm-6">
-                    <div class="portfolio-box">
+                <div class="col-lg-5 col-sm-6 p-b">
+                    <div class="portfolio-box right">
                         <img class="hobby-pic img-fluid" src="assets/hobbies/kayak.jpg" alt="">
-                        <div class="portfolio-box-caption p-3">
+                        <div class="portfolio-box-caption p-3 p-b-c">
                             <div class="project-category text-white-50">Kayaking</div>
-                            <p class="text-white hobby">My kayak is easily one of the best purchases I've ever made.
-                                I've
-                                had countless hours of fun floating around with friends or exploring new places by
-                                myself.</p>
+                            <p class="text-white hobby">Floating around with friends and family or exploring new places by
+                                myself is fun and relaxing. I dont have any friends but I assume it would be fun with friends. <span style='font-size:20px;'>&#128533;</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 col-sm-6">
-                    <div class="portfolio-box">
+                <div class="col-lg-5 col-sm-6 p-b">
+                    <div class="portfolio-box left">
                         <img class="hobby-pic img-fluid" src="assets/hobbies/robot-dark.png" alt="">
                         <div class="portfolio-box-caption p-3">
                             <div class="project-category text-white-50">Robotics</div>
-                            <p class="text-white hobby">A new hobby of mine that is quickly becoming my favorite.
-                                Teaching
-                                myself from scratch has been challenging but very rewarding.</p>
+                            <p class="text-white hobby">The better I get the more fun it is.
+                                Plus I will have options when they take over.<span style='font-size:20px;'>&#128518;</span></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 col-sm-6">
-                    <div class="portfolio-box">
+                <div class="col-lg-5 col-sm-6 p-b">
+                    <div class="portfolio-box right">
                         <img class="hobby-pic img-fluid" src="assets/hobbies/game.jpg" alt="">
-                        <div class="portfolio-box-caption p-3">
+                        <div class="portfolio-box-caption p-3 p-b-c">
                             <div class="project-category text-white-50">Gaming</div>
-                            <p class="text-white hobby">Gaming is one of my favorite ways to pass time. So much so, I
-                                have
-                                to be careful not to pass too much time.</p>
+                            <p class="text-white hobby">Gaming is one of my favorite ways to pass time.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 col-sm-6">
-                    <div class="portfolio-box">
+                <div class="col-lg-5 col-sm-6 p-b">
+                    <div class="portfolio-box left">
                         <img class="hobby-pic img-fluid" src="assets/hobbies/gym.jpg" alt="">
                         <div class="portfolio-box-caption p-3">
                             <div class="project-category text-white-50">Fitness</div>
-                            <p class="text-white hobby">Fitness is a big part of my life. Other than physical
-                                well-being,
-                                it is also important to my mental health and
-                                overall well-being.</p>
+                            <p class="text-white hobby">Fitness is a big part of my
+                                overall well-being and I actually enjoy it.</p>
                         </div>
                     </div>
                 </div>
@@ -379,11 +348,11 @@
         </div>
     </section>
     <!-- Contact-->
-    <section id="contact">
+    <section id="contact" class="page-section bg-dark">
         <div class="container px-4 px-lg-5">
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-8 col-xl-6 text-center">
-                    <h2 class="mt-0">Let's Get In Touch!</h2>
+                    <h2 class="mt-0 text-white">Let's Get In Touch!</h2>
                     <hr class="divider mb-5" />
                 </div>
             </div>
@@ -419,14 +388,14 @@
             <div class="row gx-4 gx-lg-5 justify-content-center">
                 <div class="col-lg-4 text-center mb-5 mb-lg-0">
                     <i class="bi-phone fs-2 mb-3 text-muted"></i>
-                    <div>+1 (770) 634-6786</div>
+                    <div class="text-muted">+1 (770) 634-6786</div>
                     <a href="mailto:btaftcan@gmail.com">btaftcan@gmail.com</a>
                 </div>
             </div>
         </div>
     </section>
     <!-- Footer-->
-    <footer class="footer bg-light py-5">
+    <footer class="footer bg-dark py-5">
         <div class="container text-center">
             <!-- Logo -->
             <a class="logo" href="https://github.com/BrandonTaft">
@@ -447,11 +416,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>

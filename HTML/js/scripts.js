@@ -56,4 +56,8 @@ window.addEventListener('DOMContentLoaded', event => {
         elements: '#portfolio a.lightBoxVideoLink'
     });
 
+    new SimpleLightbox({
+        elements: '#portfolio a.freelance'
+    });
+
 });

@@ -187,7 +187,7 @@ h6,
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 abbr[title],
@@ -653,9 +653,28 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 98%;
   height: auto;
 }
+
+@media (min-width: 992px) {
+.img-fluid {
+  max-width: 90%;
+  height: auto;
+}
+.portfolio-box-caption {
+  width: 90% !important;
+}
+.p-b-c {
+  margin-left: 10%;
+}
+}
+
+@media (max-width: 575px) {
+  .img-fluid {
+    max-width: 100%;
+  }
+  }
 
 .img-thumbnail {
   padding: 0.25rem;
@@ -1454,7 +1473,7 @@ progress {
 
   .col-lg-5 {
     flex: 0 0 auto;
-    width: 48.66666667%;
+    width: 47.66666667%;
     margin: 5px auto 20px;
   }
 
@@ -7810,6 +7829,7 @@ fieldset:disabled .btn {
 
 .p-2 {
   padding: 0.5rem !important;
+  text-align: left;
 }
 
 .p-3 {
@@ -11866,7 +11886,25 @@ header.masthead .h1 {
     font-size: 3.5rem;
   }
 }
-
+.portfolio-box.right {
+  text-align: center;
+}
+.portfolio-box.left {
+  text-align: center;
+}
+@media (min-width: 992px) {
+.portfolio-box.right {
+  text-align: right;
+}
+.portfolio-box.left {
+  text-align: left;
+}
+}
+@media (max-width: 992px) {
+  .p-b {
+    margin-bottom: .5rem !important;
+  }
+}
 #portfolio .container-fluid,
 #portfolio .container-sm,
 #portfolio .container-md,
@@ -12042,7 +12080,7 @@ header.masthead .h1 {
   -moz-osx-font-smoothing: grayscale;
 }
 .social {
-  color: #c49b66;
+  color: #252934;
   font-size: 1.8em;
   margin: auto 1em;
   position: relative;
@@ -12058,16 +12096,16 @@ header.masthead .h1 {
   border-radius: 10px;
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  background-color: #252934;
+  background-color: #f4623a;
   z-index: -1;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
 .social:hover {
-  color: #fff;
+  color: #f4623a;
 }
 .social:hover:after {
-  background: #c49b66;
+  background: #fff;
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
 }
