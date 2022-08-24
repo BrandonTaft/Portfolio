@@ -1,21 +1,21 @@
 const falling = {
     "particles": {
         "number": {
-            "value": 15,
+            "value": 25,
             "density": {
                 "enable": false,
-                "value_area": 400
+                "value_area": 800
             }
         },
         "color": {
             "value": "#ffffff"
         },
         "shape": {
-            "type":  "image",
+            "type":  ["image", "polygon"],
             "image": {
                 "src": "./assets/img/star.png",
                 "height": 100,
-                "width": 8
+                "width": 9
             },
             "stroke": {
                 "width": 0,
@@ -23,16 +23,16 @@ const falling = {
             },
         },
         "opacity": {
-            "value": 1,
+            "value": .9,
             "anim": {
                 "enable": true,
-                "speed": 9,
-                "opacity_min": 0.4,
+                "speed": .8,
+                "opacity_min": 0.1,
                 "sync": false
             }
         },
         "size": {
-            "value": 6,
+            "value": 4,
             "random": true,
             "anim": {
                 "enable": true,
