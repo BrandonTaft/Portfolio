@@ -11,10 +11,10 @@ const falling = {
             "value": "#ffffff"
         },
         "shape": {
-            "type": ["circle", "circle", "image"],
+            "type": ["circle", "image"],
             "image": {
                 "src": "./assets/img/star.png",
-                "height": 1000,
+                "height": 1500,
                 "width": 100
             },
             "stroke": {
@@ -23,11 +23,11 @@ const falling = {
             },
         },
         "opacity": {
-            "value": .5,
+            "value": .7,
             "random": true,
             "anim": {
                 "enable": false,
-                "speed": 2,
+                "speed": 8,
                 "opacity_min": 0,
                 "sync": false
             }
@@ -38,7 +38,7 @@ const falling = {
             "anim": {
                 "enable": true,
                 "speed": .5,
-                "size_min": 0.3,
+                "size_min": .3,
                 "sync": false
             }
         },

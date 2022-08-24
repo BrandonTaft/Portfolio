@@ -11851,7 +11851,24 @@ hr.divider-light {
 canvas {
   position: absolute;
   top: 0;
-  height: 50%;
+}
+
+@media (max-width: 992px) {
+  canvas {
+    height: 500px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  canvas {
+    height: 600px!important;
+  }
+}
+
+@media (max-width: 330px) {
+  canvas {
+    height: 93% !important;
+  }
 }
 
 .top-z {
