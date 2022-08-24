@@ -20,7 +20,7 @@
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
-  --bs-cyan: #0dcaf0;
+  --bs-cyan: #0decf0;
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
@@ -8263,8 +8263,12 @@ fieldset:disabled .btn {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  /* background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important; */
   background: radial-gradient(ellipse at bottom, #0D1E31, #111) !important;
+}
+
+.bg-footer {
+  --bs-bg-opacity: 1;
+  background: radial-gradient(ellipse at top, #0D1E31, #111) !important;
 }
 
 .bg-black {
@@ -11770,7 +11774,7 @@ hr.divider-light {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #252934;
+  background-color: #0f1721;
   transition: background-color 0.2s ease;
 }
 .nav-logo {
@@ -11832,7 +11836,7 @@ hr.divider-light {
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     /* background-color: #fff; */
-    background-color: #252934;
+    background-color: #0f1721;
   }
   /* #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
@@ -11863,9 +11867,9 @@ header.masthead {
   position: relative;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg"); */
   /* background: #252934; */
-  background: radial-gradient(ellipse at bottom, #0D1E31, #111);
+  /* background: radial-gradient(ellipse at bottom, #0D1E31, #111); */
+  background-image: url("../assets/img/bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
