@@ -11848,35 +11848,19 @@ hr.divider-light {
   }
 }
 
-canvas {
-  position: absolute;
-  top: 0;
-}
-
-@media (max-width: 992px) {
-  canvas {
-    height: 500px !important;
-  }
-}
-
-@media (max-width: 400px) {
-  canvas {
-    height: 600px!important;
-  }
-}
-
-@media (max-width: 330px) {
-  canvas {
-    height: 93% !important;
-  }
-}
-
 .top-z {
   position: relative;
   z-index: 5;
 }
-
+.falling{
+  position: absolute;
+       height: 100%;
+       width: 100%;
+  
+       top: 0;
+}
 header.masthead {
+  position: relative;
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
   /* background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg"); */
