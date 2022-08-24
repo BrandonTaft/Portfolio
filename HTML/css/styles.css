@@ -8269,6 +8269,7 @@ fieldset:disabled .btn {
 .bg-footer {
   --bs-bg-opacity: 1;
   background: radial-gradient(ellipse at top, #0D1E31, #111) !important;
+  border-top: solid #3b3c3021 2px;
 }
 
 .bg-black {
