@@ -1,7 +1,7 @@
 const falling = {
     "particles": {
         "number": {
-            "value": 22,
+            "value": 15,
             "density": {
                 "enable": false,
                 "value_area": 400
@@ -15,7 +15,7 @@ const falling = {
             "image": {
                 "src": "./assets/img/star.png",
                 "height": 100,
-                "width": 10
+                "width": 8
             },
             "stroke": {
                 "width": 0,
