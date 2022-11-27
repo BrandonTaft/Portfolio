@@ -11914,13 +11914,13 @@ header.masthead .h1 {
   text-align: center;
 }
 @media (min-width: 992px) {
-  .portfolio-box.right {
+  /* .portfolio-box.right {
     text-align: right;
   }
   .portfolio-box.left {
     text-align: left;
   }
-}
+} */
 
 .divider.none {
   display: none;
