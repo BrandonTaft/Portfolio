@@ -662,12 +662,12 @@ progress {
     max-width: 90%;
     height: auto;
   }
-  .portfolio-box-caption {
+  /* .portfolio-box-caption {
     width: 90% !important;
-  }
-  .p-b-c {
+  } */
+  /* .p-b-c {
     margin-left: 10%;
-  }
+  } */
 }
 
 @media (max-width: 575px) {
@@ -11919,8 +11919,8 @@ header.masthead .h1 {
   }
   .portfolio-box.left {
     text-align: left;
-  }
-} */
+  }*/
+}
 
 .divider.none {
   display: none;
