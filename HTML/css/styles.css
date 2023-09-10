@@ -98,6 +98,17 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+.underline {
+  text-decoration: underline;
+  color: #000;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 1.5em !important;
+  font-weight: 800;
+}
+
 hr {
   margin: 1rem 0;
   color: inherit;
